@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
+
 
 body {
     background-color: antiquewhite;
+    font-family: 'lexend', sans-serif;
 }
 
 main{
@@ -31,12 +37,13 @@ main{
 
 .item-a {
     background-color: red;
-    height: 70px;
+    height: 150px;
     grid-area: a;
 }
 .item-b {
     background-color: rgb(255, 166, 0);
     grid-area: b;
+    height: 150px;
 }
 .item-c {
     background-color: rgb(8, 110, 16);
@@ -45,6 +52,7 @@ main{
 .item-d {
     background-color: rgb(140, 0, 255);
     grid-area: d;
+    height: 30px;
 }
 .item-e {
     background-color: rgb(211, 21, 46);
