@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+main{
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'c d d'
+    'c e e';
+    gap: 10px;
+    margin: auto;
+    width: 50%;
+}
+
+.grid-container div {
+    padding: 2em; 
+    text-align: center;
+}
+
+.item-a {
+    background-color: red;
+    height: 70px;
+    grid-area: a;
+}
+.item-b {
+    background-color: rgb(255, 166, 0);
+    grid-area: b;
+}
+.item-c {
+    background-color: rgb(8, 110, 16);
+    grid-area: c;
+}
+.item-d {
+    background-color: rgb(140, 0, 255);
+    grid-area: d;
+}
+.item-e {
+    background-color: rgb(211, 21, 46);
+    grid-area: e;
+    height: 50px;
+}
+
+.tasks {
+    margin-top: 3rem;
+    display: block;
+    text-align: center;
+}
+
+.tasks a {
+    font-size: 17px;
+    font-weight: 700;
+}
